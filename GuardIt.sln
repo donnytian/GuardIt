@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardIt", "GuardIt\GuardIt.csproj", "{0574CB98-1056-4BBA-BB03-369810D5EAF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0574CB98-1056-4BBA-BB03-369810D5EAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0574CB98-1056-4BBA-BB03-369810D5EAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0574CB98-1056-4BBA-BB03-369810D5EAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0574CB98-1056-4BBA-BB03-369810D5EAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1A8AC0C-B006-4687-9B5F-4278389BCC09}
+	EndGlobalSection
+EndGlobal
