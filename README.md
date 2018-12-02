@@ -1,7 +1,7 @@
 # GuardIt
 C# Object Guard Extensions.
 
-## Get strong-typed objects from Excel (XLS or XLSX)
+## Examples
 
 ```C#
 // Argument guard: throw ArgumentNullException or ArgumentException
