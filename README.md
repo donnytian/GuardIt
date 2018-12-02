@@ -18,7 +18,8 @@ _name = name.NotNullOrWhiteSpaceArg(nameof(name));
 // Operation guard: throw InvalidOperationException
 var entity = _service.GetEntities().FirstOrDefault();
 entity.InvalidOperationIfNull("Custom error message");
+entity.InvalidOperationIf(e => !IsValid(e), () => "Another custom error message");
 
-// Custom exception
+// Any other / custom exceptions
 var obj = mapper.Take();
 obj.ThrowIf(i => !IsValid(i), () => new MyCustomException("My error message."));
