@@ -4,6 +4,9 @@ C# Object Guard Extensions.
 ## Install
 ```> dotnet add package GuardIt```
 
+## Dependencies
+.NETStandard 1.0
+
 
 ## Examples
 
