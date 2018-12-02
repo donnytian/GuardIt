@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <LangVersion>latest</LangVersion>
+    <Version>1.0.1</Version>
+    <Authors>Donny Tian</Authors>
+    <Company>Donny Tian</Company>
+    <Description>C# Object Guard Extensions</Description>
+    <PackageTags>Guard, Extenion</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
