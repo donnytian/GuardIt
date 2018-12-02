@@ -1,6 +1,10 @@
 # GuardIt
 C# Object Guard Extensions.
 
+## Install
+```> dotnet add package GuardIt```
+
+
 ## Examples
 
 ```C#
