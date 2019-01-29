@@ -23,3 +23,4 @@ entity.InvalidOperationIf(e => !IsValid(e), () => "Another custom error message"
 // Any other / custom exceptions
 var obj = mapper.Take();
 obj.ThrowIf(i => !IsValid(i), () => new MyCustomException("My error message."));
+...
